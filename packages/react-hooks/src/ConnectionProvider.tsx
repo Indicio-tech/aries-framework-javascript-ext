@@ -45,7 +45,7 @@ export const useConnections = (options: UseConnectionsOptions = {}) => {
       if (options.connectionState && options.connectionState !== record.state) return false
 
       // Exclude records with certain connection types (if defined)
-      const recordTypes = record.connectionTypes as Array<ConnectionType | string> | null
+      const recordTypes = record.getTag('connectionType') as Array<ConnectionType | string> | null
       if (options.excludedTypes && recordTypes) {
         return recordTypes.some((connectionType) => !options.excludedTypes?.includes(connectionType))
       }
