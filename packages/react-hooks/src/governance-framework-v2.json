@@ -27,7 +27,7 @@
     "topic": "uri:to-multi-topic-schema",
     "entries": {
       "https://example.com/roles.schema.json": {
-        "98nVuCngj7ReESPrH7skpF": {
+        "61890e15-8300-4667-bfad-14e02361ccba": {
           "roles": ["role_1", "role_2"]
         },
         "WdvgJP7fwfvCrKupRRhDEu": {
@@ -35,7 +35,7 @@
         }
       },
       "https://example.com/description.schema.json": {
-        "98nVuCngj7ReESPrH7skpF": {
+        "61890e15-8300-4667-bfad-14e02361ccba": {
           "name": "Proven issuer agency",
           "website": "issuinggovernmentsite.org",
           "email": "credential_manager@issuinggovernmentsite.org",
