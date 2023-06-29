@@ -20,22 +20,22 @@
     }
   ],
   "participants": {
-    "id": "005d57bd-3a5c-4dbc-8b9b-4a36745b9ab8",
+    "id": "did:peer:2.SeyJzIjoiaHR0cHM6Ly9wcm92ZW4ubWVkaWF0b3IuaW5kaWNpb3RlY2guaW8iLCJ0IjoiZGlkLWNvbW11bmljYXRpb24iLCJwcmlvcml0eSI6MCwicmVjaXBpZW50S2V5cyI6WyJkaWQ6a2V5Ono2TWtzelg3Z2RBM3VtN1Z5RFl4Q01HdlBUTXI5Y281YVo4akNwWHgzbTg3VW53RyN6Nk1rc3pYN2dkQTN1bTdWeURZeENNR3ZQVE1yOWNvNWFaOGpDcFh4M204N1Vud0ciXSwiciI6WyJkaWQ6a2V5Ono2TWtvMXRSYjZTS041Q1B1OTl5a2lRTU5abTh2VWNKZHlQU0JqNno4VUZTcVV1WiN6Nk1rbzF0UmI2U0tONUNQdTk5eWtpUU1OWm04dlVjSmR5UFNCajZ6OFVGU3FVdVoiLCJkaWQ6a2V5Ono2TWtmZlJEZ2JoNkdMTDV6QVhqaHI2MWMxd0hlVDlNNHpwTGFTUUJ5UVF2cWpDVCN6Nk1rZmZSRGdiaDZHTEw1ekFYamhyNjFjMXdIZVQ5TTR6cExhU1FCeVFRdnFqQ1QiXX0",
     "author": "did:example:viacheslavnazarenko",
     "created": 1684949555,
     "version": "2.0",
     "topic": "uri:to-multi-topic-schema",
     "entries": {
       "https://example.com/roles.schema.json": {
-        "005d57bd-3a5c-4dbc-8b9b-4a36745b9ab8": {
+        "did:peer:2.SeyJzIjoiaHR0cHM6Ly9wcm92ZW4ubWVkaWF0b3IuaW5kaWNpb3RlY2guaW8iLCJ0IjoiZGlkLWNvbW11bmljYXRpb24iLCJwcmlvcml0eSI6MCwicmVjaXBpZW50S2V5cyI6WyJkaWQ6a2V5Ono2TWtzelg3Z2RBM3VtN1Z5RFl4Q01HdlBUTXI5Y281YVo4akNwWHgzbTg3VW53RyN6Nk1rc3pYN2dkQTN1bTdWeURZeENNR3ZQVE1yOWNvNWFaOGpDcFh4M204N1Vud0ciXSwiciI6WyJkaWQ6a2V5Ono2TWtvMXRSYjZTS041Q1B1OTl5a2lRTU5abTh2VWNKZHlQU0JqNno4VUZTcVV1WiN6Nk1rbzF0UmI2U0tONUNQdTk5eWtpUU1OWm04dlVjSmR5UFNCajZ6OFVGU3FVdVoiLCJkaWQ6a2V5Ono2TWtmZlJEZ2JoNkdMTDV6QVhqaHI2MWMxd0hlVDlNNHpwTGFTUUJ5UVF2cWpDVCN6Nk1rZmZSRGdiaDZHTEw1ekFYamhyNjFjMXdIZVQ5TTR6cExhU1FCeVFRdnFqQ1QiXX0": {
           "roles": ["role_1", "role_2"]
         },
-        "WdvgJP7fwfvCrKupRRhDEu": {
+        "did:peer:1zQmbKdHH6bxBNwXP4x6fv4dHiVJvsxXsn4Jq4fe5KBsrsPy": {
           "roles": ["role_3", "role_4"]
         }
       },
       "https://example.com/description.schema.json": {
-        "005d57bd-3a5c-4dbc-8b9b-4a36745b9ab8": {
+        "did:peer:2.SeyJzIjoiaHR0cHM6Ly9wcm92ZW4ubWVkaWF0b3IuaW5kaWNpb3RlY2guaW8iLCJ0IjoiZGlkLWNvbW11bmljYXRpb24iLCJwcmlvcml0eSI6MCwicmVjaXBpZW50S2V5cyI6WyJkaWQ6a2V5Ono2TWtzelg3Z2RBM3VtN1Z5RFl4Q01HdlBUTXI5Y281YVo4akNwWHgzbTg3VW53RyN6Nk1rc3pYN2dkQTN1bTdWeURZeENNR3ZQVE1yOWNvNWFaOGpDcFh4M204N1Vud0ciXSwiciI6WyJkaWQ6a2V5Ono2TWtvMXRSYjZTS041Q1B1OTl5a2lRTU5abTh2VWNKZHlQU0JqNno4VUZTcVV1WiN6Nk1rbzF0UmI2U0tONUNQdTk5eWtpUU1OWm04dlVjSmR5UFNCajZ6OFVGU3FVdVoiLCJkaWQ6a2V5Ono2TWtmZlJEZ2JoNkdMTDV6QVhqaHI2MWMxd0hlVDlNNHpwTGFTUUJ5UVF2cWpDVCN6Nk1rZmZSRGdiaDZHTEw1ekFYamhyNjFjMXdIZVQ5TTR6cExhU1FCeVFRdnFqQ1QiXX0": {
           "name": "Proven issuer agency",
           "website": "issuinggovernmentsite.org",
           "email": "credential_manager@issuinggovernmentsite.org",
@@ -45,7 +45,7 @@
           "zip": "23764",
           "state": "TX"
         },
-        "WdvgJP7fwfvCrKupRRhDEu": {
+        "did:peer:1zQmbKdHH6bxBNwXP4x6fv4dHiVJvsxXsn4Jq4fe5KBsrsPy": {
           "name": "Proven verifier agency",
           "website": "verifyinglabsite.com",
           "email": "credential_manager@verifyinglabsite.com",
