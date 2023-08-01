@@ -37,8 +37,6 @@ const AgentProvider: React.FC<PropsWithChildren<Props>> = ({ agent, children }) 
     agent,
   })
 
-  const qaEnabled = useMemo(() => (agent ? checkModuleEnabled(agent, QuestionAnswerModule) : false), [agent])
-
   const setInitialState = async () => {
     if (agent) {
       setAgentState({ agent, loading: false })
