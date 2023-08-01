@@ -72,7 +72,7 @@ const QuestionAnswerProvider: React.FC<PropsWithChildren<Props>> = ({ agent, chi
   }, [agent])
 
   useEffect(() => {
-    if (!questionAnswerState.loading) {
+    if (questionAnswerState.loading === 'yes-qa') {
       const listener = (event: QuestionAnswerStateChangedEvent) => {
         const newQuestionAnswerState = [...questionAnswerState.questionAnswerMessages]
         const index = newQuestionAnswerState.findIndex(

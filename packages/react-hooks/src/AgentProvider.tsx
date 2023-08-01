@@ -37,13 +37,11 @@ const AgentProvider: React.FC<PropsWithChildren<Props>> = ({ agent, children }) 
     agent,
   })
 
-  const [qaEnabled, setQaEnabled] = useState<boolean>(false)
+  const qaEnabled = useMemo(() => (agent ? checkModuleEnabled(agent, QuestionAnswerModule) : false), [agent])
 
   const setInitialState = async () => {
     if (agent) {
       setAgentState({ agent, loading: false })
-      const isQuestionAnswerModuleEnabled = useMemo(() => checkModuleEnabled(agent, QuestionAnswerModule), [agent])
-      setQaEnabled(isQuestionAnswerModuleEnabled)
     }
   }
 
@@ -56,13 +54,9 @@ const AgentProvider: React.FC<PropsWithChildren<Props>> = ({ agent, children }) 
       <ConnectionProvider agent={agent}>
         <CredentialProvider agent={agent}>
           <ProofProvider agent={agent}>
-            {qaEnabled ? (
-              <QuestionAnswerProvider agent={agent}>
-                <BasicMessageProvider agent={agent}>{children}</BasicMessageProvider>
-              </QuestionAnswerProvider>
-            ) : (
-              <BasicMessageProvider agent={agent}>{children}</BasicMessageProvider>
-            )}
+            <BasicMessageProvider agent={agent}>
+              <QuestionAnswerProvider agent={agent}>{children}</QuestionAnswerProvider>
+            </BasicMessageProvider>
           </ProofProvider>
         </CredentialProvider>
       </ConnectionProvider>
