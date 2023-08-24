@@ -20,14 +20,14 @@
     }
   ],
   "participants": {
-    "id": "did:peer:1zQmRnp2qsv2UwUtUFy3zzTbAcsdJXV6Md6x7cv52NLSe5ui",
+    "id": "did:peer:1zQmWtJZ3kJbTo3wGNYwumFwVmsGhv7Thc1RkRdgSiHEioq1",
     "author": "did:example:viacheslavnazarenko",
     "created": 1684949555,
     "version": "2.0",
     "topic": "uri:to-multi-topic-schema",
     "entries": {
       "https://example.com/roles.schema.json": {
-        "did:peer:1zQmRnp2qsv2UwUtUFy3zzTbAcsdJXV6Md6x7cv52NLSe5ui": {
+        "did:peer:1zQmWtJZ3kJbTo3wGNYwumFwVmsGhv7Thc1RkRdgSiHEioq1": {
           "roles": ["role_1", "role_2"]
         },
         "VF7WwuKbwD8xWCioAV8XsL": {
@@ -35,7 +35,7 @@
         }
       },
       "https://example.com/description.schema.json": {
-        "did:peer:1zQmRnp2qsv2UwUtUFy3zzTbAcsdJXV6Md6x7cv52NLSe5ui": {
+        "did:peer:1zQmWtJZ3kJbTo3wGNYwumFwVmsGhv7Thc1RkRdgSiHEioq1": {
           "name": "Proven issuer agency",
           "website": "issuinggovernmentsite.org",
           "email": "credential_manager@issuinggovernmentsite.org",
