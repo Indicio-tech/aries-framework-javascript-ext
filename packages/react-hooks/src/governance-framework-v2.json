@@ -20,14 +20,14 @@
     }
   ],
   "participants": {
-    "id": "did:peer:1zQmWtJZ3kJbTo3wGNYwumFwVmsGhv7Thc1RkRdgSiHEioq1",
+    "id": "did:peer:2.SeyJzIjoiaHR0cHM6Ly9wdWJsaWMubWVkaWF0b3IuaW5kaWNpb3RlY2guaW8iLCJ0IjoiZGlkLWNvbW11bmljYXRpb24iLCJwcmlvcml0eSI6MCwicmVjaXBpZW50S2V5cyI6WyJkaWQ6a2V5Ono2TWtyS3dLa3A1amZMM3ZuTm9haUNGN2hoZnR1ZEZVTlJVM1VSb0JCRVZqc0VweSN6Nk1rckt3S2twNWpmTDN2bk5vYWlDRjdoaGZ0dWRGVU5SVTNVUm9CQkVWanNFcHkiXX0",
     "author": "did:example:viacheslavnazarenko",
     "created": 1684949555,
     "version": "2.0",
     "topic": "uri:to-multi-topic-schema",
     "entries": {
       "https://example.com/roles.schema.json": {
-        "did:peer:1zQmWtJZ3kJbTo3wGNYwumFwVmsGhv7Thc1RkRdgSiHEioq1": {
+        "did:peer:2.SeyJzIjoiaHR0cHM6Ly9wdWJsaWMubWVkaWF0b3IuaW5kaWNpb3RlY2guaW8iLCJ0IjoiZGlkLWNvbW11bmljYXRpb24iLCJwcmlvcml0eSI6MCwicmVjaXBpZW50S2V5cyI6WyJkaWQ6a2V5Ono2TWtyS3dLa3A1amZMM3ZuTm9haUNGN2hoZnR1ZEZVTlJVM1VSb0JCRVZqc0VweSN6Nk1rckt3S2twNWpmTDN2bk5vYWlDRjdoaGZ0dWRGVU5SVTNVUm9CQkVWanNFcHkiXX0": {
           "roles": ["role_1", "role_2"]
         },
         "VF7WwuKbwD8xWCioAV8XsL": {
@@ -35,7 +35,7 @@
         }
       },
       "https://example.com/description.schema.json": {
-        "did:peer:1zQmWtJZ3kJbTo3wGNYwumFwVmsGhv7Thc1RkRdgSiHEioq1": {
+        "did:peer:2.SeyJzIjoiaHR0cHM6Ly9wdWJsaWMubWVkaWF0b3IuaW5kaWNpb3RlY2guaW8iLCJ0IjoiZGlkLWNvbW11bmljYXRpb24iLCJwcmlvcml0eSI6MCwicmVjaXBpZW50S2V5cyI6WyJkaWQ6a2V5Ono2TWtyS3dLa3A1amZMM3ZuTm9haUNGN2hoZnR1ZEZVTlJVM1VSb0JCRVZqc0VweSN6Nk1rckt3S2twNWpmTDN2bk5vYWlDRjdoaGZ0dWRGVU5SVTNVUm9CQkVWanNFcHkiXX0": {
           "name": "Proven issuer agency",
           "website": "issuinggovernmentsite.org",
           "email": "credential_manager@issuinggovernmentsite.org",
